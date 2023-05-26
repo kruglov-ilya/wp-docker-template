@@ -57,6 +57,7 @@ services:
                 volumes:
                         - ./src/wordpress:/var/www/html
                         - ./src/nginx-conf:/etc/nginx/conf.d
+                        - ./src/themes/new-theme:/var/www/html/wp-content/themes/new-theme
                 networks:
                         - app-network
 
