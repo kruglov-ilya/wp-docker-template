@@ -12,13 +12,13 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/src/wordpress" />
-      <path value="$PROJECT_DIR$/src/themes" />
+      <path value="$PROJECT_DIR$/wordpress" />
+      <path value="$PROJECT_DIR$/themes" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="43148bca-5d34-4bf9-99b4-1ef5a87418fc" name="wordpress" home="docker-compose://DATA" false="false" debugger_id="php.debugger.XDebug">
+      <interpreter id="43148bca-5d34-4bf9-99b4-1ef5a87418fc" name="wordpress" home="docker-compose://DATA" auto="false" debugger_id="php.debugger.XDebug">
         <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="wordpress" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
           <type_data command="EXEC" />
           <dockerComposeConfigurationPaths>

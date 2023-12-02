@@ -1,3 +1,5 @@
 .env
-src/wordpress/
-vendor/
+wordpress/
+**/vendor/
+**/node_modules/
+uploads/
