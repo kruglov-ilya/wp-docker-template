@@ -38,6 +38,7 @@ services:
     volumes:
       - ./wordpress:/var/www/html
       - ./themes/new-theme:/var/www/html/wp-content/themes/new-theme
+      - ./wp-vite:/var/www/html/wp-content/plugins/wp-vite
       - ./uploads:/var/www/html/wp-content/uploads
 
   webserver:

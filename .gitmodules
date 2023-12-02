@@ -1,0 +1,3 @@
+[submodule "wp-vite"]
+	path = wp-vite
+	url = https://github.com/kruglov-ilya/wp-vite.git
